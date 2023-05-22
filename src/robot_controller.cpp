@@ -42,7 +42,7 @@ int main(int argc, char **argv)
     {
       ROS_INFO("Input W");
     }
-    // A 입력시 우회전
+    // A 입력시 좌회전
     if(return_key == 97 | return_key == 65)
     {
       ROS_INFO("Input A");
@@ -52,7 +52,7 @@ int main(int argc, char **argv)
     {
       ROS_INFO("Input S");
     }
-    // D 입력시 좌회전
+    // D 입력시 우회전
     if(return_key == 100 | return_key == 68)
     {
       ROS_INFO("Input D");
